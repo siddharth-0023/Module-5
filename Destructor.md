@@ -29,6 +29,7 @@ class Demo:
     def __del__(self):
         print("Hello from the __del__ method.")
 
+# Create and delete the object
 obj = Demo()
 del obj
 ```
